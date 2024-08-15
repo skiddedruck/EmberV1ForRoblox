@@ -6889,7 +6889,7 @@ if shared.VapeExecuted then
 	GuiLibrary["LoadedAnimation"] = function(enabled)
 		if enabled then
 			--no cache but its ran 1 time so idc
-			GuiLibrary.CreateNotification("Finished Loading", inputService.TouchEnabled and GuiLibrary["GUIKeybind"] == "RightShift" and "Press the button in the top right to open GUI" or "Press "..string.upper(GuiLibrary["GUIKeybind"]).." to open GUI", 5)
+			GuiLibrary.CreateNotification("Ember Has Finished Loading", inputService.TouchEnabled and GuiLibrary["GUIKeybind"] == "RightShift" and "Press the button in the top right to open GUI" or "Press "..string.upper(GuiLibrary["GUIKeybind"]).." to open GUI", 5)
 		end
 	end
 

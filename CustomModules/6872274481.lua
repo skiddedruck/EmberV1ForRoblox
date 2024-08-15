@@ -9030,3 +9030,31 @@ task.spawn(function()
 		AutoLeave.ToggleButton(false)
 	end
 end)
+
+local RoasterTable = {"Stop skidding!", "Skidded Is fucking you in the ass :trol:", ":skull: 😍", "your a nn, blackie", "erm whatdesigme", "You should end yourself, now!", "pls touch grass", "stop explpoiting 😡"}
+
+run(function()
+	local NNFucker = {Enabled = false}
+	NNFucker = GuiLibrary.ObjectsThatCanBeSaved.EmberWindow.Api.CreateOptionsButton({
+		Name = "Skid Detector",
+		Function = function(callback)
+			if callback then
+				task.spawn(function()
+					repeat
+						task.wait(4)
+						local skidfucker = math.random(1,#RoasterTable)
+						warningNotification("NN Roaster", RoasterTable[skidfucker] , 4)
+					until (not NNFucker.Enabled)
+				end)
+			end
+		end,
+		HoverText = "Mean Messages to nns like you!"
+	})
+end)
+
+task.spawn(function()
+	if not shared.VapeFullyLoaded then
+		repeat task.wait() until shared.VapeFullyLoaded
+	end
+	warningNotification("Ember", "Ember Has Loaded, Enjoy!", 4)
+end)

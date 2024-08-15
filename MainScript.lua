@@ -1,4 +1,5 @@
 repeat task.wait() until game:IsLoaded()
+
 local GuiLibrary
 local baseDirectory = (shared.VapePrivate and "vapeprivate/" or "vape/")
 local vapeInjected = true
@@ -288,6 +289,11 @@ local Render = GuiLibrary.CreateWindow({
 	Icon = "vape/assets/RenderIcon.png",
 	IconSize = 17
 })
+local Ember = GuiLibrary.CreateWindow({
+	Name = "Ember Tab",
+	Icon = "vape/assets/CombatIcon.png",
+	IconSize = 15
+})
 local Utility = GuiLibrary.CreateWindow({
 	Name = "Utility",
 	Icon = "vape/assets/UtilityIcon.png",
@@ -317,6 +323,12 @@ GUI.CreateDivider()
 GUI.CreateButton({
 	Name = "Combat",
 	Function = function(callback) Combat.SetVisible(callback) end,
+	Icon = "vape/assets/CombatIcon.png",
+	IconSize = 15
+})
+GUI.CreateButton({
+	Name = "Ember Tab",
+	Function = function(callback) Ember.SetVisible(callback) end,
 	Icon = "vape/assets/CombatIcon.png",
 	IconSize = 15
 })
@@ -1937,6 +1949,9 @@ GeneralSettings.CreateButton2({
 	Function = GuiLibrary.SelfDestruct
 })
 
+
+shared.VoidwareFunctions = VoidwareFunctions
+getgenv().VoidwareFunctions = VoidwareFunctions
 local function loadVape()
 	if not shared.VapeIndependent then
 		loadstring(vapeGithubRequest("Universal.lua"))()
