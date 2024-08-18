@@ -21,14 +21,14 @@ if shared.VapeExecuted then
 		["vape/assets/HoverArrow2.png"] = "rbxassetid://13350772588",
 		["vape/assets/HoverArrow3.png"] = "rbxassetid://13350773014",
 		["vape/assets/HoverArrow4.png"] = "rbxassetid://13350773643",
-		["vape/assets/InfoNotification.png"] = "rbxassetid://13350774006",
+		["vape/assets/InfoNotification.png"] = "rbxassetid://18622811740",
 		["vape/assets/KeybindIcon.png"] = "rbxassetid://13350774323",
 		["vape/assets/LegitModeIcon.png"] = "rbxassetid://13436400428",
 		["vape/assets/MoreButton1.png"] = "rbxassetid://13350775005",
 		["vape/assets/MoreButton2.png"] = "rbxassetid://13350775731",
 		["vape/assets/MoreButton3.png"] = "rbxassetid://13350776241",
-		["vape/assets/NotificationBackground.png"] = "rbxassetid://13350776706",
-		["vape/assets/NotificationBar.png"] = "rbxassetid://13350777235",
+		["vape/assets/NotificationBackground.png"] = "rbxassetid://18622813556",
+		["vape/assets/NotificationBar.png"] = "rbxassetid://18622808460",
 		["vape/assets/OnlineProfilesButton.png"] = "rbxassetid://13350777717",
 		["vape/assets/PencilIcon.png"] = "rbxassetid://13350778187",
 		["vape/assets/PinButton.png"] = "rbxassetid://13350778654",
@@ -60,15 +60,15 @@ if shared.VapeExecuted then
 		["vape/assets/ToggleArrow.png"] = "rbxassetid://13350792786",
 		["vape/assets/UpArrow.png"] = "rbxassetid://13350793386",
 		["vape/assets/UtilityIcon.png"] = "rbxassetid://13350793918",
-		["vape/assets/WarningNotification.png"] = "rbxassetid://13350794868",
+		["vape/assets/WarningNotification.png"] = "rbxassetid://18622811740",
 		["vape/assets/WindowBlur.png"] = "rbxassetid://13350795660",
 		["vape/assets/WorldIcon.png"] = "rbxassetid://13350796199",
 		["vape/assets/VapeIcon.png"] = "rbxassetid://13350808582",
 		["vape/assets/RenderIcon.png"] = "rbxassetid://13350832775",
 		["vape/assets/VapeLogo1.png"] = "rbxassetid://13350860863",
-		["vape/assets/VapeLogo3.png"] = "rbxassetid://13350872035",
-		["vape/assets/VapeLogo2.png"] = "rbxassetid://13350876307",
-		["vape/assets/VapeLogo4.png"] = "rbxassetid://13350877564"
+		["vape/assets/VapeLogo3.png"] = "rbxassetid://18622927501",
+		["vape/assets/VapeLogo2.png"] = "rbxassetid://18613891245",
+		["vape/assets/VapeLogo4.png"] = "rbxassetid://18613915740"
 	}
 	local getcustomasset = getsynasset or getcustomasset or function(location) return vapeAssetTable[location] or "" end
 	local customassetcheck = (getsynasset or getcustomasset) and true
