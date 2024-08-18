@@ -9031,7 +9031,6 @@ task.spawn(function()
 	end
 end)
 
-local RoasterTable = {"Stop skidding!", "Skidded Is fucking you in the ass :trol:", ":skull: 😍", "your a nn, blackie", "erm whatdesigme", "You should end yourself, now!", "pls touch grass", "stop explpoiting 😡"}
 
 run(function()
 	local NNFucker = {Enabled = false}
@@ -9042,6 +9041,7 @@ run(function()
 				task.spawn(function()
 					repeat
 						task.wait(4)
+						local RoasterTable = {"Stop skidding!", "Skidded Is fucking you in the ass :trol:", ":skull: 😍", "your a nn, blackie", "erm whatdesigme", "You should end yourself, now!", "pls touch grass", "stop explpoiting 😡"}
 						local skidfucker = math.random(1,#RoasterTable)
 						warningNotification("NN Roaster", RoasterTable[skidfucker] , 4)
 					until (not NNFucker.Enabled)
