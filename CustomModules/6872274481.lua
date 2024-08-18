@@ -9035,7 +9035,7 @@ end)
 run(function()
 	local NNFucker = {Enabled = false}
 	NNFucker = GuiLibrary.ObjectsThatCanBeSaved.EmberWindow.Api.CreateOptionsButton({
-		Name = "Skid Detector",
+		Name = "Skid Roaster",
 		Function = function(callback)
 			if callback then
 				task.spawn(function()
