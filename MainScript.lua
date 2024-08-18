@@ -290,7 +290,7 @@ local Render = GuiLibrary.CreateWindow({
 	IconSize = 17
 })
 local Ember = GuiLibrary.CreateWindow({
-	Name = "Ember Tab",
+	Name = "Ember",
 	Icon = "vape/assets/CombatIcon.png",
 	IconSize = 15
 })
@@ -327,7 +327,7 @@ GUI.CreateButton({
 	IconSize = 15
 })
 GUI.CreateButton({
-	Name = "Ember Tab",
+	Name = "Ember",
 	Function = function(callback) Ember.SetVisible(callback) end,
 	Icon = "vape/assets/CombatIcon.png",
 	IconSize = 15
